@@ -1,0 +1,29 @@
+@import "tailwindcss";
+.active {
+  color: rgb(20, 28, 44);
+  transform: scale(104%);
+}
+body {
+  overflow: hidden;
+
+}
+*{
+  transition: all 0.2s;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@layer utilities {
+  .text-shadow-sm {
+    text-shadow: 1px 1px 3px #000000;
+  }
+  .text-shadow-md {
+    text-shadow: 2px 2px 4px #000000;
+  }
+  .text-shadow-lg {
+    text-shadow: 4px 4px 6px #000000;
+  }
+}
